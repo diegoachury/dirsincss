@@ -8149,7 +8149,51 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../sass/_dashboard.scss */
-h1 {
-  color: red;
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 2, ../sass/_dashboard.scss */
+  body {
+    overflow: hidden;
+  }
+  /* line 4, ../sass/_dashboard.scss */
+  body div#box-bg {
+    width: calc(100% + 20px);
+  }
+  /* line 6, ../sass/_dashboard.scss */
+  body div#box-bg .copy {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: calc(40% - 100px);
+    width: 70%;
+  }
+  /* line 12, ../sass/_dashboard.scss */
+  body div#box-bg .copy h1 {
+    font-family: 'Lucida Bright', Georgia,  serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 1px #201F1F;
+  }
+  /* line 19, ../sass/_dashboard.scss */
+  body div#box-bg .copy .btn-center {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  /* line 25, ../sass/_dashboard.scss */
+  body div#box-bg .copy .btn-center .btn-black {
+    background-color: #333333;
+    color: #fff;
+  }
+  /* line 28, ../sass/_dashboard.scss */
+  body div#box-bg .copy .btn-center .btn-black:hover {
+    background-color: #272727;
+  }
+  /* line 36, ../sass/_dashboard.scss */
+  body section#hero {
+    overflow: hidden;
+    width: calc(100% + 20px);
+  }
 }
